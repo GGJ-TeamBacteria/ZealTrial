@@ -142,7 +142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BacteriaGood: {fileID: 1075965286047008, guid: bec5e3b91388c45ab995a478ebd4d828,
     type: 2}
-  BacteriaBad: {fileID: 0}
+  BacteriaBad: {fileID: 1720712253701256, guid: 46412290e827045a4a771de2a7a765d1,
+    type: 2}
   worldSize: {x: 15, y: 15, z: 15}
   numOfBacteriaGood: 30
 --- !u!4 &134313671
@@ -335,65 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ef0b9d198ea4e5a943c102537abf70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1821786452
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518333734120820, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114881716112410770, guid: bec5e3b91388c45ab995a478ebd4d828,
-        type: 2}
-      propertyPath: audio1
-      value: 
-      objectReference: {fileID: 1341174125754842, guid: 351644f8d9b92466db3f71c4ec70b215,
-        type: 2}
-    - target: {fileID: 114071341807965486, guid: bec5e3b91388c45ab995a478ebd4d828,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114804214700976626, guid: bec5e3b91388c45ab995a478ebd4d828,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 82769033960687302, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: bec5e3b91388c45ab995a478ebd4d828, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1924769378
 GameObject:
   m_ObjectHideFlags: 0
